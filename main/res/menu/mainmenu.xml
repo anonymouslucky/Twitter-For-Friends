@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/tweet" android:title="TWEET"
+        app:showAsAction="always" ></item>
+    <item android:id="@+id/viewFeed" android:title="VIEW TWEETS" app:showAsAction="always"></item>
+    <item android:id="@+id/logout" android:title="LOGOUT"
+        app:showAsAction="always"></item>
+</menu>

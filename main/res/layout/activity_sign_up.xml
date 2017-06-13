@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lucky.friends.SignUp">
+
+    <EditText
+        android:id="@+id/signEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="76dp"
+        android:layout_above="@+id/signPassword1"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/signPassword1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="151dp"
+        android:layout_above="@+id/signPassword2"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/signPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="Password Again"
+        android:inputType="textPassword"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="216dp"
+        android:layout_above="@+id/signButton"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/signButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="328dp"
+        android:layout_marginTop="38dp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="22sp"
+        android:layout_marginTop="38dp"
+        tools:ignore="HardcodedText"
+        android:layout_above="@+id/signEmail"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
